@@ -1,10 +1,11 @@
 body {
     background-image: url(/img/background-img.jpg);
-    background-size: 125%;
+    background-repeat: no-repeat;
+    background-size: cover;
     font-family: "Bell MT", Baramond, serif;
 }
 
-#main {
+article {
     background-color: #FDF5E6;
     font-style: italic;
     width: 800px;
@@ -54,11 +55,18 @@ li {
     line-height: 1.5;
 }
 
+aside p {
+    margin: 4px;
+    font-style: normal;
+}
+
 a {
+    font-weight: bold;
     text-align: center;
 }
 
 h3 {
+    font-style: normal;
     font-size: 2em;
     margin: 40px 70px;
     max-width: 100%;
